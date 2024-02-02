@@ -4,7 +4,7 @@ export default function TextForm(props) {
   const [text, setText] = useState("");
 
   const handleUpClick = ()=>{
-    //console.log("Uppercase was clicked"+text);
+    // alert("Uppercase was clicked "+text);
     let newText=text.toUpperCase();
     setText(newText);
   }
